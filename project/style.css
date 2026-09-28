@@ -150,3 +150,13 @@ button{
     bottom: 50px;
     right:50px;
 }
+
+h1::first-letter{
+   font-Style: normal;
+   margin-right: 5px;
+}
+
+h3+p::first-line{
+    font-weight: bold;
+    font-size: 24px;
+}
